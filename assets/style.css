@@ -2,11 +2,11 @@
     --text-color: #5b1058;
     --card-front-color: #cd88e2;
     --card-back-color: #d9e8e4;
-    background-color: #cd88e2;
+    --background-color: #f3e5ff;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: var(--background-color);
     font-family: Bai Jamjuree;
 }
 
@@ -28,7 +28,7 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
+    /* background-color: #cd91ff */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -62,7 +62,7 @@ body {
     font-weight: 700;
 }
 
-.cartao.active .cartao__conteudo {
+.cartao.actives .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -104,13 +104,14 @@ footer p {
     margin-top: 0.5rem;
 }
   :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #460541;
-    --card-back-color: #dfd6d6;
+    --text-color: #5b1058;
+    --card-front-color: #cd88e2;
+    --card-back-color: #d9e8e4;
+    --background-color: #e0baff;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: var(--background-color);
     font-family: Bai Jamjuree;
 }
 
