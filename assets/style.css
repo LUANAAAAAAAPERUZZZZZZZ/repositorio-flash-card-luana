@@ -61,7 +61,7 @@ body {
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.actives .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -105,7 +105,7 @@ footer p {
   :root {
     --text-color: #DBE4EF;
     --card-front-color: #460541;
-    --card-back-color: #080808;
+    --card-back-color: #dfd6d6;
 }
 
 body {
