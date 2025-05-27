@@ -2,6 +2,7 @@
     --text-color: #5b1058;
     --card-front-color: #cd88e2;
     --card-back-color: #d9e8e4;
+    background-color: #cd88e2;
 }
 
 body {
@@ -61,7 +62,7 @@ body {
     font-weight: 700;
 }
 
-.cartao.actives .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
